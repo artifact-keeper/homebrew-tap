@@ -1,26 +1,26 @@
 class Ak < Formula
   desc "CLI/TUI tool for Artifact Keeper — an enterprise artifact registry"
   homepage "https://artifactkeeper.com"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/artifact-keeper/artifact-keeper-cli/releases/download/v1.0.0/ak-darwin-arm64"
-      sha256 "b5b9274e1f3bd675cd5cba2008d38c1fbfa15d6ce37c98f743eee89aeddd2fd3"
+      url "https://github.com/artifact-keeper/artifact-keeper-cli/releases/download/v1.1.0/ak-darwin-arm64"
+      sha256 "70cb80ab2fbaabd8dcdbf170397cbd4e94bc941009078776579c0cda379de0f6"
     else
-      url "https://github.com/artifact-keeper/artifact-keeper-cli/releases/download/v1.0.0/ak-darwin-amd64"
-      sha256 "3b9a2ad854d63bcc49cebfe3ed44515b243109108e1c280d79184c43990c0452"
+      url "https://github.com/artifact-keeper/artifact-keeper-cli/releases/download/v1.1.0/ak-darwin-amd64"
+      sha256 "4b3a15ee59c9e7a97806450e6a9e38bf60e5b3f11918b77d7675c9c109c2412b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/artifact-keeper/artifact-keeper-cli/releases/download/v1.0.0/ak-linux-arm64"
-      sha256 "782ac7c4bad8f97e6f6336c984699da951851085f1166a72e925aa3560993623"
+      url "https://github.com/artifact-keeper/artifact-keeper-cli/releases/download/v1.1.0/ak-linux-arm64"
+      sha256 "6be76d15acad7814841ed2a2e45ae470f96f430db36635c012a2ba1ba4709353"
     else
-      url "https://github.com/artifact-keeper/artifact-keeper-cli/releases/download/v1.0.0/ak-linux-amd64"
-      sha256 "982c4e5793a201a528d80a7cd72e8f185c3e0a3f596f06ba21a4a96e35bf59ec"
+      url "https://github.com/artifact-keeper/artifact-keeper-cli/releases/download/v1.1.0/ak-linux-amd64"
+      sha256 "83788542b5393291e740c6008af7d991428e8979b00d688f30523fb374e222bc"
     end
   end
 
